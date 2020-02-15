@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { TareaService } from './services/tarea.service';
+import { TareaServiceTsService } from './services/tarea.service';
 
 @NgModule({
   declarations: [
@@ -15,7 +15,7 @@ import { TareaService } from './services/tarea.service';
   ],
   // se coloca aquí el servicio porque lo que importo es míom y no es "externo"
   providers: [
-    TareaService
+    TareaServiceTsService
   ],
   bootstrap: [AppComponent]
 })
